@@ -1,0 +1,105 @@
+﻿html {
+	overflow-x:hidden;
+}
+
+#heading {
+	color:rgb(255, 255, 255);
+	text-align:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	position:relative;
+	width:100%;
+	line-height:20px;
+}
+
+#juke {
+	position:relative;
+	margin: 0 auto;
+	width:180px;
+	height:298px;
+	display:block;
+	float:none;
+}
+
+#juke img {
+	position:relative;
+}
+
+a {
+	text-decoration:none;
+	background-color:rgb(255, 0, 0);
+	width:18px;
+	height:20px;
+	border-radius:50%;
+	position:absolute;
+	border:2px solid black;
+	top:70.5%;
+	left:45.3%;
+	padding:.31px;
+	outline:0;
+}
+
+a:active {
+	text-decoration:none;
+	background-color:rgb(255, 0, 0);
+	width:15.5px;
+	height:17.5px;
+	border-radius:50%;
+	position:absolute;
+	top:71%;
+	left:45.8%;
+	padding:.35px;	
+}
+
+@keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@-webkit-keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@-moz-keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@-ms-keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display:block;
+}
+
+.stars {
+	background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png);
+}
+
+.twinkling{
+	background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png);
+	-moz-animation:move-twink-back 200s linear infinite;
+	-ms-animation:move-twink-back 200s linear infinite;
+	-o-animation:move-twink-back 200s linear infinite;
+	-webkit-animation:move-twink-back 200s linear infinite;
+	animation:move-twink-back 200s linear infinite;
+}
+
+.notes {
+	position:absolute;
+	top:15%;
+	left:15%;
+	right:0;
+	bottom:0;
+}	
+
+span {
+	color:rgb(255, 0, 0);
+}
