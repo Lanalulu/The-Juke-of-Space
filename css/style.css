@@ -18,6 +18,7 @@
 	height:298px;
 	display:block;
 	float:none;
+	touch-action:none;
 }
 
 #juke img {
