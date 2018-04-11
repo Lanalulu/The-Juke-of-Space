@@ -1,6 +1,5 @@
 ﻿html {
 	overflow-x:hidden;
-	height: 100%;
 }
 
 #heading {
@@ -83,7 +82,6 @@ a:active {
 
 .stars {
 	background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png);
-	height: 100%;
 }
 
 .twinkling{
