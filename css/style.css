@@ -82,9 +82,13 @@ a:active {
 
 .stars {
 	background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png);
+	position:absolute;
+	height:100%;
 }
 
 .twinkling{
+	position:absolute;
+	height:100%;
 	background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png);
 	-moz-animation:move-twink-back 200s linear infinite;
 	-ms-animation:move-twink-back 200s linear infinite;
