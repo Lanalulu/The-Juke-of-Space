@@ -1,6 +1,10 @@
-﻿html {
-	overflow-x:hidden;
-	background-color:#000000;
+html {
+  background-image:url("https://thumbs.gfycat.com/RingedSpicyKodiakbear-size_restricted.gif");
+  height:100%;
+  position:relative;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 #heading {
@@ -9,7 +13,8 @@
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	position:relative;
 	width:100%;
-	line-height:20px;
+	padding:17px 0px 17px 0px;
+	line-height:28px;
 }
 
 #juke {
@@ -19,7 +24,6 @@
 	height:298px;
 	display:block;
 	float:none;
-	touch-action:none;
 }
 
 #juke img {
@@ -50,52 +54,6 @@ a:active {
 	top:71%;
 	left:45.8%;
 	padding:.35px;	
-}
-
-@keyframes move-twink-back {
-	from {background-position:0 0;}
-	to {background-position:-10000px 5000px;}
-}
-
-@-webkit-keyframes move-twink-back {
-	from {background-position:0 0;}
-	to {background-position:-10000px 5000px;}
-}
-
-@-moz-keyframes move-twink-back {
-	from {background-position:0 0;}
-	to {background-position:-10000px 5000px;}
-}
-
-@-ms-keyframes move-twink-back {
-	from {background-position:0 0;}
-	to {background-position:-10000px 5000px;}
-}
-
-.stars, .twinkling {
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	display:block;
-}
-
-.stars {
-	background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png);
-	position:absolute;
-	height:100%;
-}
-
-.twinkling{
-	position:absolute;
-	height:100%;
-	background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png);
-	-moz-animation:move-twink-back 200s linear infinite;
-	-ms-animation:move-twink-back 200s linear infinite;
-	-o-animation:move-twink-back 200s linear infinite;
-	-webkit-animation:move-twink-back 200s linear infinite;
-	animation:move-twink-back 200s linear infinite;
 }
 
 .notes {
