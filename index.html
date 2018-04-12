@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>The Juke of Space</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Juke of Space</title>
+	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
 
-<div class="stars"></div>
-<div class="twinkling"></div>
-
-<div id="heading" style="padding-top:17px;">
-	<h1 style="padding-bottom:8px; line-height:32px;">You've discovered an abandoned <em>jukebox</em> in outer space!<h1>
-	<h3 style="padding-bottom:8px;">But does it work?</h3>
-	<h4 style="padding-bottom:12px;">Press the <span>red</span> button to find out.</h4>
+<div id="heading">
+	<h1>You've discovered an abandoned <em>jukebox</em> in outer space!<h1>
+	<h3>But does it work?</h3>
+	<h4>Press the <span>red</span> button to find out.</h4>
 </div>
 
 <div id="juke">
-	<img src='images/Juke.png' alt='Jukebox'/>
+	<img src="images/Juke.png" alt="Jukebox"/>
 	<div class="notes"><img src="images/notes.gif" alt="notes" width="150" height="150"/></div>	
-	<a href="#" onClick="bleep.play()"></a>
+	<a href="#" onmousedown="bleep.play()"></a>
 </div>
 
 <script>
 
 var bleep = new Audio ();
-	bleep.src = "sounds/Nostalgic.mp3";
+	bleep.src = "sounds/Nostalgic_aac.aac";
 
 	$(document).ready(function() {
 
@@ -39,6 +36,5 @@ var bleep = new Audio ();
 });
 
 </script>
-
 </body>
 </html>
